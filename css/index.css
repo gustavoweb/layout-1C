@@ -1,43 +1,35 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: #ccc;
-}
 main{
     width: 80%;
-    height: 80vh;
-    background-color: #fff;
-    margin-left: 10%;
-    margin-top: 10vh;
+    height: 600px;
+    background-color: red;
 }
-main header{
+header{
     width: 100%;
-    height: 14vh;
-    background-color: #0000ff;
+    height: 100px;
+    background-color: yellow;
+
 }
-main nav{
+nav{
     width: 100%;
-    height: 5vh;
-    background-color: #ff0000;
+    height: 40px;
+    background-color: blue;
+
 }
-main section{
-    width: 100%;
-    height: 56vh;
-    background-color: #0F0;
-}
-main section article{
-    width: 40%;
-    height: 50vh;
-    background-color: #ffb6c1;
+#sec1{
+    width: 70%;
+    height: 350px;
+    background-color: purple;
     float: left;
-    margin-left: 6.6%;
-    margin-top: 3vh;
 }
-main footer{
+#sec2{
+    width: 30%;
+    height: 350px;
+    background-color: lightblue;
+    float: right;
+}
+footer{
     width: 100%;
-    height: 5vh;
-    background-color: #800080;
-}   
+    height: 110px;
+    background-color: black;
+    float: left;
+}
